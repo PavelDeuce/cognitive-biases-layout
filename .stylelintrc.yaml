@@ -7,6 +7,7 @@ plugins:
 
 rules:
   declaration-empty-line-before: null
+  order/properties-order: []
   plugin/rational-order:
     - true
     - empty-line-between-groups: true

@@ -1,7 +1,7 @@
 {
-  "name": "html5-css-boilerplate",
+  "name": "cognitive-biases",
   "version": "0.1.0",
-  "description": "HTML5/CSS Boilerplate with HTMLHint and StyleLint",
+  "description": "cognitive-biases layout on HTML5/CSS",
   "main": "",
   "dependencies": {},
   "devDependencies": {
@@ -12,6 +12,6 @@
     "stylelint-order": "^4.1.0",
     "surge": "^0.21.6"
   },
-  "author": "Nikita Mikhaylov",
+  "author": "Pavel Deryugin",
   "license": "ISC"
 }
