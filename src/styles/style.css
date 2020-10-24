@@ -1,5 +1,6 @@
 :root {
   --white-color: #fff;
+  --orange-color: #ea7600;
   --light-background-color: #f5f4f0;
   --dark-background-color: #b09a81;
   --primary-light-color: #fe8a02;
@@ -71,6 +72,11 @@ a {
   padding: 11px 24px;
 
   background-color: var(--primary-light-color);
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: var(--orange-color);
 }
 
 .button-link {
@@ -86,12 +92,12 @@ a {
 
 .header::before {
   position: absolute;
-  z-index: 0;
+  z-index: -10;
 
   width: 100%;
   height: 100%;
 
-  background: url('../images/background-pattern.svg') no-repeat;
+  background: var(--light-background-color) url('../images/background-pattern.svg') no-repeat;
   background-size: cover;
 
   content: '';
