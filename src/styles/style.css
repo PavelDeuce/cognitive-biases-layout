@@ -14,10 +14,15 @@ html {
   font: 16px / 1.6em 'Open Sans', sans-serif;
 }
 
+body {
+  width: 100%;
+}
+
 body,
 h1,
 h2,
 h3,
+h4,
 p {
   margin: 0;
   padding: 0;
@@ -25,7 +30,8 @@ p {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   font-family: 'Neucha', cursive;
   line-height: 1.2em;
 }
@@ -39,10 +45,15 @@ h2 {
 }
 
 h3 {
+  font-size: 52px;
+}
+
+h4 {
   font-size: 34px;
 }
 
 a {
+  color: var(--dark-text-color);
   text-decoration: none;
 }
 
@@ -66,6 +77,10 @@ a {
   justify-content: space-between;
 }
 
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
 .align-center {
   align-items: center;
 }
@@ -82,8 +97,12 @@ a {
   margin-bottom: 40px;
 }
 
-.primary-color {
+.color-primary {
   color: var(--primary-light-color);
+}
+
+.color-white {
+  color: var(--white-color);
 }
 
 .button {
@@ -130,7 +149,7 @@ a {
 .header-image {
   position: absolute;
   top: 50px;
-  right: 150px;
+  right: -200px;
   z-index: 10;
 
   height: 505px;
@@ -157,5 +176,39 @@ a {
 
   margin: auto;
 
+  border: none;
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+}
+
+.navigation-section {
+  padding-top: 100px;
+
+  background-color: var(--primary-dark-color);
+}
+
+.navigation-block {
+  width: calc(302px - 7px);
+}
+
+.navigation-title {
+  width: 350px;
+}
+
+.navigation-card {
+  padding: 24px;
+
+  background-color: var(--light-background-color);
+  cursor: pointer;
+}
+
+.navigation-card:hover {
+  background-color: var(--primary-light-color);
+}
+
+.navigation-card:hover a {
+  color: var(--white-color);
+}
+
+.navigation-card:hover a h4 {
+  color: var(--white-color);
 }
