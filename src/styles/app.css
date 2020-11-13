@@ -1,0 +1,19 @@
+@import url('./variables.css');
+@import url('./basic.css');
+@import url('./atomic.css');
+@import url('./header.css');
+@import url('./video.css');
+@import url('./navigation.css');
+@import url('./button.css');
+
+.content-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+.form-container {
+  padding: 52px 43px 75px 41px;
+
+  background-color: var(--primary-dark-color);
+}

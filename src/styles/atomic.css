@@ -1,0 +1,67 @@
+.position-relative {
+  position: relative;
+}
+
+.position-absolute {
+  position: absolute;
+}
+
+.width-400 {
+  width: 400px;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.direction-column {
+  flex-direction: column;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.pt-100 {
+  padding-top: 100px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+.color-primary {
+  color: var(--primary-light-color);
+}
+
+.color-white {
+  color: var(--white-color);
+}
+
+.color-blue {
+  color: var(--blue-color);
+}
+
+.decoration-underline {
+  text-decoration: underline;
+}

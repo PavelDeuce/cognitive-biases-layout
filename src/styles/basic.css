@@ -1,0 +1,49 @@
+html {
+  color: var(--dark-text-color);
+  font: 16px / 1.6em 'Open Sans', sans-serif;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Neucha', cursive;
+  line-height: 1.2em;
+}
+
+h1 {
+  font-size: 72px;
+}
+
+h2 {
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 52px;
+}
+
+h4 {
+  font-size: 34px;
+}
+
+input {
+  padding: 12px;
+
+  border: none;
+}
+
+a {
+  color: var(--dark-text-color);
+  text-decoration: none;
+}

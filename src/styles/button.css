@@ -1,0 +1,21 @@
+.button {
+  display: block;
+  width: fit-content;
+  padding: 11px 24px;
+
+  background-color: var(--primary-light-color);
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: var(--orange-color);
+}
+
+.button-link {
+  color: var(--white-color);
+  font-weight: bold;
+}
+
+.send-button {
+  height: 24px;
+}
