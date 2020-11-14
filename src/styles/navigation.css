@@ -1,11 +1,9 @@
 .navigation-section {
-  padding-top: 100px;
-
   background-color: var(--primary-dark-color);
 }
 
 .navigation-block {
-  width: calc(302px - 7px);
+  box-sizing: border-box;
 }
 
 .navigation-title {
@@ -15,7 +13,6 @@
 .navigation-card {
   padding: 24px;
 
-  background-color: var(--light-background-color);
   cursor: pointer;
 }
 
@@ -23,10 +20,7 @@
   background-color: var(--primary-light-color);
 }
 
-.navigation-card:hover a {
-  color: var(--white-color);
-}
-
+.navigation-card:hover a,
 .navigation-card:hover a h4 {
   color: var(--white-color);
 }
