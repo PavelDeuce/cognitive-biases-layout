@@ -30,6 +30,10 @@
   align-items: center;
 }
 
+.p-4 {
+  padding: 4px;
+}
+
 .pt-100 {
   padding-top: 100px;
 }
@@ -50,8 +54,16 @@
   margin-bottom: 40px;
 }
 
+.mt-70 {
+  margin-top: 70px;
+}
+
 .color-primary {
   color: var(--primary-light-color);
+}
+
+.color-secondary {
+  color: var(--secondary-color);
 }
 
 .color-white {
@@ -60,6 +72,18 @@
 
 .color-blue {
   color: var(--blue-color);
+}
+
+.light-background {
+  background-color: var(--light-background-color);
+}
+
+.dark-background {
+  background-color: var(--dark-background-color);
+}
+
+.fw-bold {
+  font-weight: bold;
 }
 
 .decoration-underline {
