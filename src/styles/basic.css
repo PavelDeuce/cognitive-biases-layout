@@ -45,6 +45,15 @@ input {
   border: none;
 }
 
+input::placeholder {
+  color: var(--secondary-color);
+  font-size: 18px;
+
+  transform: translateY(3px);
+
+  opacity: 0.6;
+}
+
 a {
   color: var(--dark-text-color);
   text-decoration: none;

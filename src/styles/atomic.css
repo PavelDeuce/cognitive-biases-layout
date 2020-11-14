@@ -70,6 +70,10 @@
   color: var(--blue-color);
 }
 
+.color-dark {
+  color: var(--dark-text-color);
+}
+
 .light-background {
   background-color: var(--light-background-color);
 }
@@ -78,10 +82,26 @@
   background-color: var(--dark-background-color);
 }
 
+.fs-12 {
+  font-size: 12px;
+}
+
+.fs-14 {
+  font-size: 14px;
+}
+
+.fs-24 {
+  font-size: 24px;
+}
+
 .fw-bold {
   font-weight: bold;
 }
 
 .decoration-underline {
   text-decoration: underline;
+}
+
+.transform-uppercase {
+  text-transform: uppercase;
 }

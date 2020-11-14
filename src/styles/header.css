@@ -1,3 +1,7 @@
+.header {
+  overflow: hidden;
+}
+
 .header-title {
   margin-bottom: 225px;
 }

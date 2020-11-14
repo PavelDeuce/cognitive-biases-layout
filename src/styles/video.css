@@ -1,6 +1,7 @@
 .video-section {
   height: 800px;
   padding-top: 100px;
+  overflow: hidden;
 }
 
 .video-section-title {
