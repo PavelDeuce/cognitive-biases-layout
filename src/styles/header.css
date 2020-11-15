@@ -3,6 +3,10 @@
 }
 
 .header-title {
+  position: relative;
+
+  z-index: 2;
+
   margin-bottom: 225px;
 }
 
@@ -10,7 +14,7 @@
   position: absolute;
   top: 50px;
   right: -200px;
-  z-index: 10;
+  z-index: 1;
 
   height: 505px;
 }

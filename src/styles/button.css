@@ -4,6 +4,7 @@
   padding: 11px 24px;
 
   background-color: var(--primary-light-color);
+  border: none;
   cursor: pointer;
 }
 
@@ -17,5 +18,6 @@
 }
 
 .send-button {
-  height: 24px;
+  width: 70px;
+  height: 50px;
 }

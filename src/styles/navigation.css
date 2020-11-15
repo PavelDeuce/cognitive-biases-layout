@@ -8,19 +8,29 @@
 
 .navigation-title {
   width: 350px;
+
+  font-size: 52px;
 }
 
-.navigation-card {
+.navigation-card-number {
+  margin-bottom: 40px;
+
+  font-size: 64px;
+  font-family: 'Neucha', sans-serif;
+  line-height: 1;
+}
+
+.navigation-card-link {
   padding: 24px;
 
   cursor: pointer;
 }
 
-.navigation-card:hover {
+.navigation-card-link:hover {
   background-color: var(--primary-light-color);
 }
 
-.navigation-card:hover a,
-.navigation-card:hover a h4 {
+.navigation-card-link:hover,
+.navigation-card-link:hover h4 {
   color: var(--white-color);
 }

@@ -5,10 +5,13 @@
 @import url('./atomic.css');
 @import url('./header.css');
 @import url('./video.css');
+@import url('./form.css');
 @import url('./navigation.css');
 @import url('./button.css');
 
 .content-container {
+  position: relative;
+
   max-width: 1100px;
   margin: 0 auto;
   padding: 100px 0;
@@ -20,12 +23,6 @@
 
 .column-3 > * {
   width: calc(33% - 15px);
-}
-
-.form-container {
-  padding: 52px 43px 75px 41px;
-
-  background-color: var(--primary-dark-color);
 }
 
 .question-background {
