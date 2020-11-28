@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 html {
   color: var(--dark-text-color);
   font: 16px / 1.6em 'Open Sans', sans-serif;
@@ -37,21 +41,6 @@ h3 {
 
 h4 {
   font-size: 34px;
-}
-
-input {
-  padding: 12px;
-
-  border: none;
-}
-
-input::placeholder {
-  color: var(--secondary-color);
-  font-size: 18px;
-
-  transform: translateY(3px);
-
-  opacity: 0.6;
 }
 
 a {

@@ -1,6 +1,6 @@
-# Cognitive-biases Layout by Pavel Deryugin
+# cognitive-biases-layout
 
-[link - Когнитивные Искажения](http://cognitive-biases-pd.surge.sh/)
+[Link - Когнитивные Искажения](http://cognitive-biases-pd.surge.sh/)
 
 ## Setup
 

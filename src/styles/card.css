@@ -1,0 +1,30 @@
+.card-number {
+  margin-bottom: 40px;
+
+  font-size: 64px;
+  font-family: 'Neucha', sans-serif;
+  line-height: 1;
+}
+
+.card-title {
+  color: var(--primary-light-color);
+  font-size: 34px;
+}
+
+.card-link {
+  padding: 24px;
+
+  cursor: pointer;
+}
+
+.card-link:hover,
+.card-link:focus {
+  background-color: var(--primary-light-color);
+}
+
+.card-link:hover,
+.card-link:focus,
+.card-link:hover .card-title,
+.card-link:focus .card-title {
+  color: var(--white-color);
+}

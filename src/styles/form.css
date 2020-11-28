@@ -3,3 +3,28 @@
 
   background-color: var(--primary-dark-color);
 }
+
+.subscription-text {
+  font-size: 36px;
+  font-family: 'Neucha', cursive;
+  line-height: 1.2;
+}
+
+.subscription-input {
+  padding: 12px;
+
+  border: none;
+}
+
+.subscription-input::placeholder {
+  color: var(--secondary-color);
+  font-size: 18px;
+
+  transform: translateY(3px);
+
+  opacity: 0.6;
+}
+
+.subscription-rules {
+  font-size: 12px;
+}

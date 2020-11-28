@@ -1,6 +1,5 @@
 .video-section {
   height: 800px;
-  padding-top: 100px;
 }
 
 .video {
@@ -12,5 +11,4 @@
   margin: auto;
 
   border: none;
-  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }

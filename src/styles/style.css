@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Neucha&family=Open+Sans:wght@400;700&display=swap');
 @import url('./variables.css');
-@import url('./basic.css');
+@import url('./default.css');
 @import url('./atomic.css');
 @import url('./header.css');
 @import url('./video.css');
 @import url('./form.css');
-@import url('./navigation.css');
+@import url('card.css');
 @import url('./button.css');
 
 .content-container {
@@ -15,6 +15,34 @@
   max-width: 1100px;
   margin: 0 auto;
   padding: 100px 0;
+}
+
+.navigation-section {
+  background-color: var(--primary-dark-color);
+}
+
+.navigation-title {
+  width: 350px;
+
+  font-size: 52px;
+}
+
+.navigation-container {
+  margin-top: -20px;
+}
+
+.navigation-container > * {
+  margin-bottom: 20px;
+}
+
+.separator {
+  margin-top: 70px;
+  margin-bottom: 30px;
+  padding: 4px;
+
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
 }
 
 .column-2 > * {
@@ -41,4 +69,8 @@
   background-size: cover;
 
   content: "";
+}
+
+.footer-info-text {
+  font-size: 14px;
 }

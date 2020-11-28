@@ -26,10 +26,6 @@
   align-items: center;
 }
 
-.p-4 {
-  padding: 4px;
-}
-
 .pt-100 {
   padding-top: 100px;
 }
@@ -48,10 +44,6 @@
 
 .mb-40 {
   margin-bottom: 40px;
-}
-
-.mt-70 {
-  margin-top: 70px;
 }
 
 .color-primary {
@@ -82,14 +74,6 @@
   background-color: var(--dark-background-color);
 }
 
-.fs-12 {
-  font-size: 12px;
-}
-
-.fs-14 {
-  font-size: 14px;
-}
-
 .fs-24 {
   font-size: 24px;
 }
@@ -108,4 +92,8 @@
 
 .transform-uppercase {
   text-transform: uppercase;
+}
+
+.shadow {
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
