@@ -1,11 +1,14 @@
 extends:
   - stylelint-config-standard
   - stylelint-config-rational-order
+  - stylelint-prettier/recommended
 
 plugins:
   - stylelint-order
+  - stylelint-prettier
 
 rules:
+  prettier/prettier: true
   declaration-empty-line-before: null
   order/properties-order: []
   plugin/rational-order:
