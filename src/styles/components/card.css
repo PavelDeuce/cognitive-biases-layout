@@ -8,23 +8,23 @@
 
 .card-title {
   color: var(--primary-light-color);
-  font-size: 34px;
+  font: 34px / 1.2em 'Neucha', cursive;
 }
 
-.card-link {
+.card {
   padding: 24px;
 
   cursor: pointer;
 }
 
-.card-link:hover,
-.card-link:focus {
+.card:hover,
+.card:focus {
   background-color: var(--primary-light-color);
 }
 
-.card-link:hover,
-.card-link:focus,
-.card-link:hover .card-title,
-.card-link:focus .card-title {
+.card:hover,
+.card:focus,
+.card:hover .card-title,
+.card:focus .card-title {
   color: var(--white-color);
 }
